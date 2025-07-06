@@ -20,20 +20,20 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Transform Your
+              Enterprise IT Solutions
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-                Digital Future
+                For Modern Business
               </span>
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-              Expert IT solutions that drive growth and innovation. From cloud infrastructure 
-              to cybersecurity, we're your strategic technology partner in South Africa's digital revolution.
+              Professional IT solutions that drive growth and innovation. From cloud infrastructure 
+              to cybersecurity, we are your strategic technology partner delivering excellence across South Africa.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 text-lg">
-                Start Your Journey
+                Get Started
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="border-2 border-gray-300 hover:border-blue-300 hover:bg-blue-50 px-8 py-4 rounded-xl text-lg transition-all duration-200">
@@ -82,7 +82,7 @@ const Hero = () => {
               
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-4 shadow-xl border border-gray-100">
                 <div className="text-sm text-gray-600">Response Time</div>
-                <div className="text-2xl font-bold text-blue-600">&lt; 2ms</div>
+                <div className="text-2xl font-bold text-blue-600">Under 2ms</div>
               </div>
             </div>
           </div>

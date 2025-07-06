@@ -40,14 +40,14 @@ const Contact = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-4">
             <MessageSquare className="w-4 h-4 mr-2" />
-            Get In Touch
+            Contact Us
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Let's discuss how our expert IT solutions can accelerate your growth. 
-            Get a free consultation with our technology specialists.
+            Connect with our expert IT consultants to discuss how our professional solutions can accelerate your growth. 
+            Schedule a complimentary consultation with our technology specialists.
           </p>
         </div>
 

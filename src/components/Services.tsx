@@ -55,13 +55,13 @@ const Services = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-4">
-            Our Expertise
+            Our Services
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Comprehensive IT Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From strategy to implementation, we deliver technology solutions that drive your business forward.
+            From strategy to implementation, we deliver professional technology solutions that drive your business forward.
           </p>
         </div>
 

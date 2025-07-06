@@ -37,8 +37,8 @@ const About = () => {
                   and operational excellence.
                 </p>
                 <p>
-                  Our team of certified professionals combines deep technical expertise with innovative 
-                  thinking, delivering solutions that don't just meet today's needs but anticipate 
+                  Our team of certified professionals combines deep technical expertise with strategic 
+                  thinking, delivering solutions that not only meet today's requirements but anticipate 
                   tomorrow's opportunities.
                 </p>
               </div>
@@ -46,7 +46,7 @@ const About = () => {
 
             {/* Achievements */}
             <div className="space-y-3">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Our Certifications & Partnerships</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Certifications and Partnerships</h3>
               {achievements.map((achievement, index) => (
                 <div key={index} className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
