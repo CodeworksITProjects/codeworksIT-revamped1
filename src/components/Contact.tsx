@@ -109,13 +109,13 @@ const Contact = () => {
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-700">
-                      First Name *
+                      First Name (Required)
                     </label>
                     <Input placeholder="John" className="h-12 rounded-xl border-gray-200 focus:border-blue-500" />
                   </div>
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-700">
-                      Last Name *
+                      Last Name (Required)
                     </label>
                     <Input placeholder="Doe" className="h-12 rounded-xl border-gray-200 focus:border-blue-500" />
                   </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="block text-sm font-semibold text-gray-700">
-                      Email Address *
+                      Email Address (Required)
                     </label>
                     <Input type="email" placeholder="john@company.com" className="h-12 rounded-xl border-gray-200 focus:border-blue-500" />
                   </div>
@@ -145,7 +145,7 @@ const Contact = () => {
 
                 <div className="space-y-2">
                   <label className="block text-sm font-semibold text-gray-700">
-                    How can we help you? *
+                    How can we help you? (Required)
                   </label>
                   <Textarea 
                     placeholder="Tell us about your project, challenges, and what you're looking to achieve..."
