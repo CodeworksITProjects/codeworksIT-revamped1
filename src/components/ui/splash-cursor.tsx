@@ -576,7 +576,7 @@ function SplashCursor({
       };
     })();
 
-    const dye = createDoubleFBO(
+    let dye = createDoubleFBO(
       getResolution(config.DYE_RESOLUTION).width,
       getResolution(config.DYE_RESOLUTION).height,
       ext.formatRGBA.internalFormat,
@@ -584,7 +584,7 @@ function SplashCursor({
       ext.halfFloatTexType,
       ext.supportLinearFiltering ? gl.LINEAR : gl.NEAREST
     );
-    const velocity = createDoubleFBO(
+    let velocity = createDoubleFBO(
       getResolution(config.SIM_RESOLUTION).width,
       getResolution(config.SIM_RESOLUTION).height,
       ext.formatRG.internalFormat,
@@ -592,7 +592,7 @@ function SplashCursor({
       ext.halfFloatTexType,
       ext.supportLinearFiltering ? gl.LINEAR : gl.NEAREST
     );
-    const divergence = createFBO(
+    let divergence = createFBO(
       getResolution(config.SIM_RESOLUTION).width,
       getResolution(config.SIM_RESOLUTION).height,
       ext.formatR.internalFormat,
@@ -600,7 +600,7 @@ function SplashCursor({
       ext.halfFloatTexType,
       gl.NEAREST
     );
-    const curl = createFBO(
+    let curl = createFBO(
       getResolution(config.SIM_RESOLUTION).width,
       getResolution(config.SIM_RESOLUTION).height,
       ext.formatR.internalFormat,
@@ -608,7 +608,7 @@ function SplashCursor({
       ext.halfFloatTexType,
       gl.NEAREST
     );
-    const pressure = createDoubleFBO(
+    let pressure = createDoubleFBO(
       getResolution(config.SIM_RESOLUTION).width,
       getResolution(config.SIM_RESOLUTION).height,
       ext.formatR.internalFormat,
