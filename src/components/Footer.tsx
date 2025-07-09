@@ -17,7 +17,7 @@ const Footer = () => {
                   <span className="text-white font-bold text-lg">C</span>
                 </div>
                 <span className="text-3xl font-bold text-white">
-                  CodeWorks
+                  CodeWorksIT
                 </span>
               </div>
               <p className="text-gray-300 text-lg leading-relaxed max-w-md">
@@ -78,7 +78,7 @@ const Footer = () => {
           <div className="border-t border-gray-700 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400 text-sm">
-                Copyright 2024 CodeWorks IT. All rights reserved. Proudly South African.
+                Copyright 2024 CodeWorksIT. All rights reserved. Proudly South African.
               </p>
               <div className="flex space-x-6">
                 <a href="#" className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-200">

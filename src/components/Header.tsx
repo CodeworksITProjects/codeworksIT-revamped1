@@ -16,7 +16,7 @@ const Header = () => {
                 <span className="text-white font-bold text-lg">C</span>
               </div>
               <span className="text-2xl font-bold text-gray-900">
-                CodeWorks
+                CodeWorksIT
               </span>
             </div>
           </div>

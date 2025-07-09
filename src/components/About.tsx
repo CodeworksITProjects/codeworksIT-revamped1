@@ -25,14 +25,14 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-4">
-                About CodeWorks IT
+                About CodeWorksIT
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 Your Trusted Technology Partner
               </h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  For over a decade, CodeWorks IT has been at the forefront of South Africa's digital 
+                  For over a decade, CodeWorksIT has been at the forefront of South Africa's digital 
                   transformation, helping businesses harness technology to achieve unprecedented growth 
                   and operational excellence.
                 </p>
