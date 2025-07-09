@@ -64,7 +64,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-blue-400 text-sm">Location:</span>
-                  <span className="text-sm">Johannesburg, South Africa</span>
+                  <span className="text-sm">Pretoria, South Africa</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-blue-400 text-sm">Hours:</span>

@@ -23,7 +23,7 @@ const contactMethods = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: "Johannesburg, SA",
+    details: "Pretoria, SA",
     description: "Schedule an appointment",
     color: "from-purple-500 to-indigo-500"
   }
