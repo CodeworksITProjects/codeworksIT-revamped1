@@ -16,6 +16,35 @@ const achievements = [
   "24/7 Local Support Team"
 ];
 
+// AnimatedCounter component
+function AnimatedCounter({ end }: { end: string }) {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    let numericEnd = parseInt(end);
+    if (isNaN(numericEnd)) numericEnd = 0;
+    let start = 0;
+    const duration = 1000;
+    const increment = Math.ceil(numericEnd / (duration / 16));
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= numericEnd) {
+        setCount(numericEnd);
+        clearInterval(timer);
+      } else {
+        setCount(start);
+      }
+    }, 16);
+    return () => clearInterval(timer);
+  }, [end]);
+  return (
+    <span>
+      {count}
+      {end.includes("+") ? "+" : ""}
+      {end.includes("%") ? "%" : ""}
+    </span>
+  );
+}
+
 const About = () => {
   return (
     <section id="about" className="py-24 bg-gradient-to-b from-gray-50 to-white relative">
