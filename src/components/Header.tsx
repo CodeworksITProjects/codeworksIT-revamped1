@@ -35,6 +35,9 @@ const Header = () => {
               <a href="#contact" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 Contact
               </a>
+              <a href="/career" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+                Career
+              </a>
               <Button className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200">
                 Get Started
               </Button>
@@ -65,6 +68,9 @@ const Header = () => {
               </a>
               <a href="#contact" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
                 Contact
+              </a>
+              <a href="/career" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+                Career
               </a>
               <Button className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white shadow-lg">
                 Get Started
