@@ -1,17 +1,18 @@
-
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <header className="fixed top-0 w-full bg-blue-100/80 backdrop-blur-xl border-b border-gray-200/50 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center space-x-3">
+            <Link to="/" className="flex-shrink-0 flex items-center space-x-3">
               {/* Replace 'C' icon with logo image */}
               <img src="/logo.png" alt="CodeWorksIT Logo" className="w-10 h-10 rounded-xl object-cover" />
               {/* Brand: two-line layout */}
@@ -19,27 +20,27 @@ const Header = () => {
                 <span className="text-2xl font-bold text-gray-900">Codeworks</span>
                 <span className="text-base font-medium text-blue-700 tracking-wide">IT Solutions</span>
               </span>
-            </div>
+            </Link>
           </div>
 
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-1">
-              <a href="/" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+              <Link to="/" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 Home
-              </a>
-              <a href="/services" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+              </Link>
+              <Link to="/services" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 Services
-              </a>
-              <a href="/about" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+              </Link>
+              <Link to="/about" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 About
-              </a>
-              <a href="/contact" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+              </Link>
+              <Link to="/contact" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 Contact
-              </a>
-              <a href="/career" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
+              </Link>
+              <Link to="/career" className="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50">
                 Career
-              </a>
-              <Button onClick={() => { window.location.href = "/contact"; }} className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200">
+              </Link>
+              <Button onClick={() => navigate("/contact")} className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200">
                 Get Started
               </Button>
             </div>
@@ -58,22 +59,22 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-blue-100/95 backdrop-blur-xl rounded-lg mt-2 shadow-lg border border-gray-200/50">
-              <a href="/" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+              <Link to="/" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Home
-              </a>
-              <a href="/services" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+              </Link>
+              <Link to="/services" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Services
-              </a>
-              <a href="/about" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+              </Link>
+              <Link to="/about" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 About
-              </a>
-              <a href="/contact" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+              </Link>
+              <Link to="/contact" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Contact
-              </a>
-              <a href="/career" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+              </Link>
+              <Link to="/career" className="block px-3 py-2 rounded-lg text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Career
-              </a>
-              <Button onClick={() => { window.location.href = "/contact"; }} className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white shadow-lg">
+              </Link>
+              <Button onClick={() => { navigate("/contact"); setIsMenuOpen(false); }} className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white shadow-lg">
                 Get Started
               </Button>
             </div>
