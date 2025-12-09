@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import React, { useState } from "react";
+import Header from "@/components/Header";
 import { X, FileText, FileImage, File, Cloud, Shield, Server, Smartphone, Headphones, Laptop, ArrowRight, Calendar, Code, User, Clock } from "lucide-react";
 import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
 
@@ -117,8 +118,9 @@ export default function Career() {
 
   return (
     <>
+      <Header />
       {/* Job Positions Section */}
-      <section id="careers" className="py-0 bg-blue-50">
+      <section id="careers" className="pt-24 md:pt-28 bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-4">
@@ -139,7 +141,7 @@ export default function Career() {
         </div>
       </section>
       {/* Application Form Section */}
-      <section className="py-0 bg-gradient-to-b from-white to-blue-50 min-h-screen">
+      <section className="pt-12 pb-0 bg-gradient-to-b from-white to-blue-50 min-h-screen">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-0">
           <div className="text-center mt-0 mb-0">
           <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-4">

@@ -41,12 +41,11 @@ const Footer = () => {
             <div>
               <h4 className="font-bold text-lg mb-6 text-white">Our Services</h4>
               <ul className="space-y-3 text-gray-300">
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Cloud Solutions</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Cybersecurity</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Infrastructure</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Digital Transformation</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">IT Consulting</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Managed Services</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Functional Testing</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Usability Testing</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Performance Testing</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Security Testing</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors duration-200 text-sm">Automated Testing</a></li>
               </ul>
             </div>
 
@@ -56,7 +55,7 @@ const Footer = () => {
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-start space-x-2">
                   <span className="text-blue-400 text-sm">Phone:</span>
-                  <span className="text-sm">+27 11 123 4567</span>
+                  <span className="text-sm">+27 72 241 0250</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-blue-400 text-sm">Email:</span>

@@ -9,7 +9,7 @@ const contactMethods = [
   {
     icon: Phone,
     title: "Call Us",
-    details: "+27 11 123 4567",
+    details: "+27 72 241 0250",
     description: "Mon-Fri 8AM-6PM SAST",
     color: "from-green-500 to-emerald-500"
   },
@@ -132,7 +132,7 @@ const Contact = () => {
                     <label className="block text-sm font-semibold text-gray-700">
                       Phone Number
                     </label>
-                    <Input placeholder="+27 11 123 4567" className="h-12 rounded-xl border-gray-200 focus:border-blue-500" />
+                    <Input placeholder="+27 72 241 0250" className="h-12 rounded-xl border-gray-200 focus:border-blue-500" />
                   </div>
                 </div>
 
